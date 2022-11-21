@@ -1,0 +1,684 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    max-width:1170px;
+    width:100%;
+    margin:0 auto;
+}
+.flex{
+    display: flex;
+}
+
+.align-center{
+    align-items: center;
+}
+.jsb{
+    justify-content: space-between;
+}
+
+header{
+    display: flex;
+    padding: 28px 0;
+    position: relative;
+    z-index: 2;
+    background-color: #ffffff;
+     
+}
+.navbar ul  {
+display: flex;
+list-style: none;
+align-items: center;
+}
+
+
+
+.navbar ul li{
+    margin: 0 16px;
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    
+    
+}
+.navbar ul li a{
+    color: hsl(216, 30%, 68%);
+    text-decoration: none;
+}
+ .navbar ul li a:hover{
+     color: hsl(256, 26%, 20%);
+ }
+
+.navbar ul li button{
+  background-color: white;
+  font-family: 'Karla', sans-serif;
+  border:solid hsl(256, 26%, 20%);
+  color: hsl(256, 26%, 20%);
+  padding: 13px 30px;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 0px;
+  cursor: pointer;
+}
+
+.navbar button:hover {
+    color: white;
+    background-color:hsl(256, 26%, 20%);
+    transition: 0.7s;
+}
+
+
+
+
+
+
+.spotlight{
+    width: 100%;
+    height: 600px;
+    background-color: hsl(256, 26%, 20%);
+    position: relative;
+   
+}
+.spotlight .main-section{
+    max-width: 1440px;
+}
+.spotlight .left-section{
+    width:540px ;
+    margin-left: 155px;
+    padding-top: 175px;
+}
+.spotlight .right-section{
+width: 442px;
+position: absolute;
+top: 105px;
+left: 700px;
+}
+.spotlight .right-section img{
+    width: 442px;
+}
+.spotlight .left-section h2{
+    font-family: 'DM Serif Display', serif;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 2px; 
+    line-height: 40px;  
+}
+ {
+    content: "";
+    display: block;
+    width: 110px;
+    height: 1px;
+    background: #ffffff;
+    position: absolute;
+    left: 160px;
+    top: 20%;
+}
+.spotlight .left-section p{
+    color: white;
+    font-family: 'Karla', sans-serif;
+    width: 530px;
+    line-height: 25px;
+    margin-top: 45px; 
+    margin-left: 0;  
+}
+.spotlight .left-section button{
+    margin-top: 38px;
+    background-color: hsl(256, 26%, 20%);
+    font-family: 'Karla', sans-serif;
+    border:solid white;
+    color: white;
+    padding: 15px 28px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.spotlight button:hover {
+    color: hsl(256, 26%, 20%);
+    background-color:white;
+    transition: 0.7s;
+
+}
+.left-pattern{
+    position: absolute;
+    top: 70%;
+}
+
+.right-pattern{
+    position: absolute;
+    right: 0;
+    top: -16%;
+   
+}
+.right-pattern img{
+    width: 100%;
+}
+
+
+
+
+
+.second-section{
+    width: 100%;
+    max-width: 1440px;
+    position: relative;
+}
+.second-section  h2{
+    
+    font-family: 'DM Serif Display', serif;
+    color: hsl(270, 9%, 17%);
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-top: 380px;
+    margin-left: 160px;
+    width: 455px;
+    
+
+}
+.second-section h2:before {
+    content: "";
+    display: block;
+    width: 110px;
+    height: 1px;
+    background: #3333b0;
+    position: absolute;
+    left: 170px;
+    top:-60px;
+    
+  }
+
+  .second-section .details{
+      width: 100%;
+      display: flex;
+      max-width: 1100px;
+      margin-top: 80px;
+      margin-left: 130px;
+  }
+
+  .second-section .details h5{
+    font-family: 'DM Serif Display', serif;
+    color: hsl(270, 9%, 17%);
+    font-size: 22px;
+    margin-top: 35px;
+
+  }
+  .second-section .details p{
+    
+    font-family: 'Karla', sans-serif;
+    color: hsl(216, 30%, 68%);
+    font-size: 14px;
+    width: 320px;
+    margin-top: 28px;
+
+  }
+  
+
+
+
+  .third-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      gap: 250px;
+      width: 100%;
+      max-width: 1115px;
+      height: 250px;
+      margin-top: 125px;
+      background-color: hsl(256, 26%, 20%);
+  }
+
+ .third-section p{
+    font-family: 'DM Serif Display', serif;
+    color: white;
+    font-size: 40px;
+    margin-left: 80px;
+    
+
+ }
+ .third-section button{
+
+    background-color: hsl(256, 26%, 20%);
+    font-family: 'Karla', sans-serif;
+    border:solid 2px white;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    margin-right: 80px;
+ }
+
+ .third-section button:hover {
+    color: hsl(256, 26%, 20%);
+    background-color:white;
+    transition: 0.7s;
+ }
+
+  .bottom-pattern{
+      position: absolute;
+      right: 0;
+      top: 0;
+     }
+
+
+footer .top-section .logo{
+    
+    z-index: 2;
+}
+  footer .top-section{
+    background-color: hsl(0, 0%, 98%);
+    padding: 30px;
+   
+      position: relative;
+  }  
+  footer .top-section .footer-pattern{
+      position: absolute;
+  }
+  
+  footer .social-media a{
+      margin: 14px;
+      }
+ footer .social-media a img:hover{
+    transform: scale(1.3);
+    
+   }   
+  
+   footer hr { 
+         
+        border-width: 2px;
+    
+        
+      } 
+
+footer .bottom-section{
+    background-color: hsl(0, 0%, 98%);
+    padding: 30px 0;
+   
+    
+}
+footer .bottom-section ul li{
+    list-style: none;
+    padding: 10px 0;
+    
+    
+}
+
+footer .bottom-section ul li:hover{
+    text-decoration: underline;
+    transform: scale(1.3);
+    
+}
+footer .bottom-section a{
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: hsl(256, 26%, 20%);
+    text-decoration: none;
+  
+    
+}
+footer .bottom-section h6{
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    color: hsl(273, 4%, 51%);
+    padding-bottom: 40px;
+    margin-top: 45px;
+    margin-left: 0px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    
+    footer .bottom-section{ 
+        flex-direction:column;
+        text-align: center;
+        
+    }
+     footer .bottom-section h6 {
+         margin: 0px;
+         margin-top: 40px;
+         margin-left: 0px;
+     }
+     
+     footer hr{
+         margin-left: 0px;
+     }
+     footer .top-section{
+         flex-direction: column;
+         gap: 0;
+         align-items: center;
+         
+     }
+     footer .top-section .logo{
+     margin: 50px 0;
+     }
+     footer .top-section .social-media{
+         justify-content: center;
+         align-items: center;
+         margin: 0;
+         z-index: 2;
+         
+     }
+
+     .third-section {
+    
+         flex-direction: column;
+         gap: 0px;
+         align-items: center;
+         
+         
+     }
+
+
+     .second-section .details{
+         flex-direction: column;
+         align-items: center;
+         margin: 0;
+         
+     }
+     .second-section .details .point1{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         text-align: center;
+     }
+     .second-section .details .point2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .second-section .details .point3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+     .spotlight{
+         width: 100%;
+         margin-top: 500px;
+         
+     }
+    
+      
+      .spotlight .main-section .left-section{
+      margin: 0px;
+      text-align: center;
+      position: static;
+      
+      }
+      .spotlight .main-section .left-section p{
+        width: 100%;
+        text-align: center;
+        margin-left: 100px;
+        
+        }
+        .spotlight .main-section .left-section h2{
+            width: 100%;
+            margin-left: 110px;
+        }
+        .spotlight .main-section .left-section button {
+
+            margin-left: 190px;
+        }
+      .spotlight .main-section .right-section{
+          
+       position: absolute;
+       top: -550px;
+       left: 150px;
+      }
+      .spotlight .right-pattern{
+          display: none;
+      } 
+      .spotlight h2:before{
+          display: none;
+      }
+
+      .spotlight .main-section .right-section img{
+        width: 100%;
+      }
+      header{
+          
+          display: flex;
+          flex-direction: column;
+          gap: 0;
+          align-items: center;
+          justify-content: center;
+      }
+      
+}
+
+
+
+@media only screen and (max-width: 516px) {
+    
+    footer .bottom-section{ 
+        flex-direction:column;
+        text-align: center;
+        
+    }
+     footer .bottom-section h6 {
+         margin: 0px;
+         margin-top: 40px;
+         margin-left: 0px;
+     }
+     
+     footer hr{
+         margin-left: 0px;
+     }
+     footer .top-section{
+         flex-direction: column;
+         gap: 0;
+         align-items: center;
+         
+     }
+     footer .top-section .logo{
+     margin: 50px 0;
+     }
+     footer .top-section .social-media{
+         justify-content: center;
+         align-items: center;
+         margin: 0;
+         z-index: 2;
+         
+     }
+
+     .third-section {
+    
+         flex-direction: column;
+         gap: 0px;
+         
+         
+     }
+     .third-section p{
+         margin-left: 60px;
+         text-align: center;
+         
+     }
+     .third-section button{
+         margin-right: 120px;
+     }
+
+
+     .second-section .details{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 60px;
+         
+     }
+     .second-section .details h5 {
+         
+        text-align: center;
+        
+     }
+     .second-section .details p{
+        text-align: center;
+        font-weight: 700;
+     }
+     .second-section .details img{
+         align-items: center;
+         margin: 50px 120px;
+     }
+     .second-section  h2{
+        margin-top: 250px;
+        margin-left: 50px;
+        
+     }
+     .second-section h2::before{
+         display: none;
+     }
+     .second-section{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+     }
+     .spotlight{
+         width: 100%;
+         margin-top: 500px;
+         
+     }
+    
+      
+      .spotlight .main-section .left-section{
+      margin: 0px;
+      text-align: center;
+      position: static;
+      
+      }
+      .spotlight .main-section .left-section p{
+        width: 60%;
+        
+        }
+    .spotlight .main-section .left-section h2{
+            width: 60%;
+            
+            }
+     .spotlight .main-section .left-section button{
+            margin-left: 0px;  
+                }
+
+    .spotlight .main-section .right-section{
+          
+       position: absolute;
+       top: -550px;
+       left: 30px;
+      }
+      .spotlight .right-pattern{
+          display: none;
+      } 
+      .spotlight h2:before{
+          display: none;
+      }
+
+      .spotlight .main-section .right-section img{
+        width: 100%;
+      }
+      header{
+          display: flex;
+          flex-direction: column;
+          gap: 0;
+          align-items: center;
+      }
+      header .logo{
+          display: flex;
+          
+          justify-content: center;
+
+      }
+      header .navbar{
+        margin-left: 160px;
+    
+    }
+      header .navbar ul  {
+          display: flex;
+          flex-direction:column;
+          
+           }
+
+        header .navbar ul li{
+            
+            margin: 20px 0;
+            
+        }   
+}
+
+
+
+
+
+
+@media only screen and (max-width: 412px){
+
+header .navbar{
+    margin-left: 110px;
+
+}
+
+
+    .spotlight .main-section .right-section{
+          
+        position: absolute;
+        top: -550px;
+        left: 0px;
+       }
+       .spotlight .main-section .left-section{
+        width: 100%;
+        
+        
+        }
+        .spotlight .main-section .left-section p {
+            margin-left: 60px;
+            width: 290px;
+        }
+        .spotlight .main-section .left-section h2{
+            margin-left: 30px;
+            width: 90%;
+        }
+        .spotlight .main-section .left-section button{
+
+            margin-left: 0px;            
+        }
+
+        .second-section h2 {
+        margin-left: 20px;
+        }
+
+        .second-section .details{
+            margin-left: 40px;
+        }
+        .third-section{
+            gap: 0;
+        }
+
+        .third-section p{
+            margin-top: 30px;
+            margin-right: 60px;
+        }
+        .third-section button{
+            margin-bottom: 50px;
+        }
+        footer .bottom-section{ 
+            flex-direction:column;
+            text-align: center;
+            
+        }
+         footer .bottom-section h6 {
+             margin: 0px;
+             margin-top: 40px;
+             margin-left: 0px;
+         }
+        
+    }
